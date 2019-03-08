@@ -1,3 +1,24 @@
+## Fluent Knob - A beautiful react based drop in knob
+
+`npm install fluent-knob`
+
+### Usage:
+
+```javascript
+<ReactKnob
+  width={45}
+  height={45}
+  fatId={1}
+  setValue={this.setVolume}
+  value={this.state.gainValue}
+  defaultValue={20}
+  unit={1}
+  max={100}
+  min={0}
+  fatProperty={"gain"}
+/>
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

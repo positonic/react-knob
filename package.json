@@ -1,8 +1,8 @@
 {
-  "name": "react-knob",
-  "version": "0.1.1",
+  "name": "fluent-knob",
+  "description": "A simple drop in react knob, suitable for web audio projects",
+  "version": "0.1.2",
   "main": "dist/ReactKnob/index.js",
-  "private": true,
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
