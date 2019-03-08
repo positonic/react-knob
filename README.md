@@ -1,5 +1,7 @@
 ## Fluent Knob - A beautiful react based drop in knob
 
+![fluent react knob](http://jamespfarrell.com/images/projects/react-knob.png)
+
 `npm install fluent-knob`
 
 ### Usage:
