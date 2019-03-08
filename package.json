@@ -28,6 +28,25 @@
     "@babel/cli": "7.2.3",
     "@babel/core": "7.3.4",
     "@babel/preset-env": "7.3.4",
-    "@babel/preset-react": "7.0.0"
+    "@babel/preset-react": "7.0.0",
+    "husky": "1.3.1",
+    "lint-staged": "8.1.5",
+    "prettier": "1.16.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{js,json,css,md}": [
+        "prettier --write",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "**/dist/*"
+    ]
   }
 }
